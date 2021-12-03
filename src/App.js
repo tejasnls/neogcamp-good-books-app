@@ -28,7 +28,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <GoodBooks/>
+      <GoodBooks bookList={bookData}/>
       <Footer/>
     </div>
   );
