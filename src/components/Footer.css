@@ -1,0 +1,33 @@
+footer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 1rem;
+    border-top: 2px solid black;
+    border-radius: 2rem;
+    overflow: hidden;
+    clear: both;
+  }
+  .footer-socials {
+    color: var(--text-color);
+    margin: 1rem auto;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+  .footer-lists {
+    padding-inline-start: 0px;
+    margin-top: 1.5rem;
+  }
+  .footer-list-inline {
+    display: inline;
+  }
+  .links {
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1rem 1rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+  }
